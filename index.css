@@ -1,0 +1,131 @@
+body {
+	background-image:url("background.jpg") ;
+}
+
+.logo {
+	-webkit-animation: anim 5s infinite linear;
+    animation: anim 5s infinite linear;
+}
+
+@-webkit-keyframes anim {
+    from {-webkit-transform: rotateZ(0deg);}
+    to {-webkit-transform: rotateZ(360deg);}
+}
+
+@keyframes anim {
+    from {transform: rotateZ(0deg);}
+    to {transform: rotateZ(360deg);}
+}
+
+a {
+	text-decoration:none;
+	color:white;
+}
+
+a:hover {
+	text-decoration:underline;
+	color:#FFCCBC;	
+}
+
+div.container {
+	width:100%;
+	background-color:;
+}
+
+div.header {
+	position:relative;
+	margin-left:0px;
+	margin-top:0px;
+	height:100px;
+	width:100%;
+	background-color:;
+}
+
+div.left {
+	background-image:url("anup3_crop.jpg");
+	background-repeat:no-repeat;
+	background-size:550px 550px;
+	position:relative;
+	margin-left:0px;
+	margin-top:0px;
+	height:550px;
+	width:46%;
+	background-color:;
+	padding-left:20px;
+	padding-right:-100px;
+	/*-webkit-filter:blur(1px);
+	-moz-filter:blur(1px);
+	-o-filter:blur(1px);
+	-ms-filter:blur(1px);
+	filter:blur(1px);
+	z-index:1;*/
+}
+
+div.ImageView {
+	position:relative;
+	margin-top:-550px;
+	margin-left:48.5%;
+	height:550px;
+	width:8%;
+	background-color:;
+	padding-left:10px;
+	padding-right:10px;
+	border-left:0.5px solid #E0E0E0;
+	border-right:0.5px solid #E0E0E0;
+}
+
+div.right {
+	float:right;
+	position:relative;
+	margin-right:0px;
+	margin-top:-550px;
+	height:550px;
+	width:46%;
+	background-color:;
+}
+
+div.footer {
+	position:relative;
+	margin-left:0px;
+	bottom:0px;
+	height:30px;
+	width:100%;
+	background-color:;
+}
+
+#abc {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto
+}
+
+div#popupContact {
+position:absolute;
+left:50%;
+top:17%;
+margin-left:-202px;
+font-family:'Raleway',sans-serif
+}
+
+form {
+max-width:300px;
+min-width:250px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:#fff
+}
+
+img#close {
+position:absolute;
+right:-14px;
+top:-14px;
+cursor:pointer;
+}
